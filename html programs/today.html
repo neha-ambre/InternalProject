@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    .txt
+    {
+        background: transparent;
+    }
+    .title
+    {
+        font-family: cursive;
+        font-weight: 500;
+        font-size: 15px;
+    }
+</style>
+</head>
+<body style="background-image: url(frame3.jpg);background-size: cover;backface-visibility: initial;">
+    <h3 style="font-family:monospace;font-size: xx-large;">
+        <marquee direction="right">--WELCOME--</marquee></h3>
+    <form name="f1" method="GET">
+        <table align="center" cellpadding="5" text-align="center">
+            <tr>
+                <td class="title">Name</td>
+                <td><input type="text" name="name" class="txt"></td>
+            </tr>
+            <tr>
+                <td class="title">Email id</td>
+                <td><input type="email" name="eamilid" class="txt" id="em1"></td>
+            </tr>
+            <tr>
+                <td class="title">Password</td>
+                <td><input type="password" name="pass" class="txt" id="p1"></td>
+            </tr>
+            <tr>
+                <td class="title">Gender</td>
+                <td><input type="radio" name="m" id="r1"  class="txt">male
+                    <input type="radio" name="m" class="txt" id="r1">female
+                    <input type="radio" name="m" class="txt" id="r1">other
+                </td>
+            </tr>
+            <tr>
+                <td class="title">Mobile no</td>
+                <td><input type="number" name="no" class="txt" id="n1"></td>
+            </tr>
+            <tr>
+                <td class="title">Select hobbies</td>
+                <td><input type="checkbox" name="c1" class="txt" id="c1">Reading <br>
+                    <input type="checkbox" name="c2" class="txt" id="c2">Singing <br>
+                    <input type="checkbox" name="c3" class="txt" id="c3">Dancing <br>
+                    <input type="checkbox" name="c4" class="txt" id="c4">Swimming
+                </td>
+            </tr>
+            <tr>
+                <td class="title">Country</td>
+                <td><input type="text" name="t2" class="txt" id="t2" value="India" readonly></td>
+            </tr>
+            <tr>
+                <td class="title">City</td>
+                <td><select name="cities" class="txt" id="s1" multiple>
+                    <option value="ct0">-select-</option>
+                    <option value="ct1">Mumbai</option>
+                    <option value="ct2">Pune</option>
+                    <option value="ct3">Khed</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td class="title">Upload</td>
+                <td><input type="file" class="txt" name="f1" id="f1"></td>
+            </tr>
+            <tr>
+                <td class="title">About Yourself</td>
+                <td><input type="text" class="txt" name="t3" id="t3"></td>
+            </tr>
+            <tr cellpadding="5" >
+                <td align="center"><input type="submit" class="txt" value="Submit"></td>
+                <td align="center"><input type="reset" class="txt" value="reset"></td>
+            </tr>
+
+        </table>
+    </form>
+</body>
+</html>

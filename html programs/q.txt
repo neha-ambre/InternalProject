@@ -1,0 +1,59 @@
+> tempString<-"Hello World."
+> print(tempString)
+[1] "Hello World."
+> source("second.R")
+[1] "Hello, R World!"
+> is.numeric(2)
+[1] TRUE
+> is.integer(2)
+[1] FALSE
+> is.integer(2L)
+[1] TRUE
+> class("welcome to R")
+[1] "character"
+> class(42)
+[1] "numeric"
+> class(42L)
+[1] "integer"
+> as.numeric(TRUE)
+[1] 1
+> as.numeric(FALSE)
+[1] 0
+> as.character(6)
+[1] "6"
+> typeof(8)
+[1] "double"
+> typeof(8L)
+[1] "integer"
+> typeof(8i)
+[1] "complex"
+> 0xff
+[1] 255
+> 0XF+1
+[1] 16
+> 'pinnacle'
+[1] "pinnacle"
+> typeof("6")
+[1] "character"
+> LETTERS
+ [1] "A" "B" "C" "D" "E" "F" "G" "H" "I" "J" "K" "L"
+[13] "M" "N" "O" "P" "Q" "R" "S" "T" "U" "V" "W" "X"
+[25] "Y" "Z"
+> letters
+ [1] "a" "b" "c" "d" "e" "f" "g" "h" "i" "j" "k" "l"
+[13] "m" "n" "o" "p" "q" "r" "s" "t" "u" "v" "w" "x"
+[25] "y" "z"
+> pi
+[1] 3.141593
+> month.name
+ [1] "January"   "February"  "March"     "April"    
+ [5] "May"       "June"      "July"      "August"   
+ [9] "September" "October"   "November"  "December" 
+> pi<-9.8
+> pi
+[1] 9.8
+> isTRUE(8>6)
+[1] TRUE
+> x<-5
+> (x<10) && (x>2)
+[1] TRUE
